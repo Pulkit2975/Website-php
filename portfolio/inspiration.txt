@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">My<span class="logo_colour">Portfolio</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="main.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li class="selected"><a href="insp.html">Inspiration</a></li>
+          <li><a href="http://localhost/project1/project/register.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+   
+      <div id="content">
+        <h1>Rembrandt van Rijn</h1>
+        <p>My inspiration for my works has always been Rembrandt. I like his direct approach on nature and how his etchings convey emotions to the viewer.</p>
+        <p>I want to introduce some aspects of Rembrandts life as I feel it is something we should expercience.</p> 
+        <p>Rembrandt van Rijn, in full Rembrandt Harmenszoon van Rijn, Rembrandt originally spelled Rembrant, (born July 15, 1606, Leiden, Netherlands—died October 4, 1669, Amsterdam), Dutch Baroque painter and printmaker, one of the greatest storytellers in the history of art, possessing an exceptional ability to render people in their various moods and dramatic guises. Rembrandt is also known as a painter of light and shade and as an artist who favoured an uncompromising realism that would lead some critics to claim that he preferred ugliness to beauty.</p>
+       <p>Early in his career and for some time, Rembrandt painted mainly portraits. Although he continued to paint—and etch and, occasionally, draw—portraits throughout his career, he did so less frequently over time. Roughly one-tenth of his painted and etched oeuvre consists of studies of his own face as well as more-formal self-portraits, a fact that has led to much speculation.
+
+The core of Rembrandt’s oeuvre, however, consists of biblical and—to a much lesser extent—historical, mythological, and allegorical “history pieces,” all of which he painted, etched, or sketched in pen and ink or chalk. Seen over his whole career, the changes in Rembrandt’s style are remarkable. His approach to composition and his rendering of space and light—like his handling of contour, form, and colour, his brushwork, and (in his drawings and etchings) his treatment of line and tone—are subject to gradual (or sometimes abrupt) transformation, even within a single work. The painting known as Night Watch (1640/42) was clearly a turning point in his stylistic development. These changes are not the result of an involuntary evolution; rather they should be seen as documenting a conscious search in pictorial and narrative respects, sometimes in discussion, as it were, with his great predecessors.</p>
+
+<p>According to the myth that evolved after his death, Rembrandt died poor and misunderstood. It is true that by the end of his life his realism had been supplanted by Classicism and had become unfashionable in Holland. Nevertheless, his international reputation among connoisseurs and collectors only continued to rise. Certain artists in 18th-century Germany and Venice even adopted his style. He was venerated during the Romantic era and was considered a forerunner of the Romantic movement; from that point he was regarded as one of the greatest figures in art history. In the Netherlands itself, his fortunes have once again risen, and he has become a symbol of both greatness and Dutch-ness.</p>
+
+<img src="C:\xampp\htdocs\project1\project\pictures\remb.jpg">
+       <img src="C:\xampp\htdocs\project1\project\pictures\a1.jpg">
+      <img src="C:\xampp\htdocs\project1\project\pictures\a2.jpg">
+<img src="C:\xampp\htdocs\project1\project\pictures\a3.jpg">
+<img src="C:\xampp\htdocs\project1\project\pictures\a4.jpg">
+      </div>
+    </div>
+</body>
+</html>

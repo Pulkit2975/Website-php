@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Project</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<style>
+.content {
+  max-width: 1000px;
+  margin: 1000;
+}
+</style>
+
+
+<body style="background-color:powderblue;">
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">My<span class="logo_colour">Portfolio</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+        
+          <li><a href="main.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+<li class="selected"><a href="work.html">Work</a></li>
+<li><a href="insp.html">Inspiration</a></li>
+          <li><a href="http://localhost/project1/project/register.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+   
+      <div id="content">
+        <style>
+
+        <h1>Work</h1>
+<center>
+<p>These are some of the works that I have done. I dont name my work because I feel it takes away its personality from it. I want the user to look at my work from an independent mindset and figure out a name for themselves.</p>
+<p>By looking at unamned works and deciding a name for it can also sometimes lead to understadning the kind of person you are.</p>
+<p>Enjoy</p> 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 40px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<div class="content">
+<div class="row">
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\1.jpg" style="width:200%" height="400">
+  </div>
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\Picture1.jpg" style="width:200%" height="400">
+  </div>
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\Picture2.jpg" style="width:200%" height="400">
+  </div>
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\Picture3.jpg" style="width:200%" height="400">
+  </div>
+    <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\a.jpg" style="width:200%" height="400">
+  </div>
+    <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\b.jpg" style="width:200%" height="400">
+  </div>
+    <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\c.jpg" style="width:200%" height="400">
+  </div>
+     <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\d.jpg" style="width:200%" height="400">
+  </div>
+    <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\e.jpg" style="width:200%" height="400">
+  </div>
+    <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\f.jpg" style="width:200%" height="400">
+  </div>
+    <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\g.jpg" style="width:200%" height="400">
+  </div>
+    <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\h.jpg" style="width:200%" height="400">
+  </div>
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\i.jpg" style="width:200%" height="400">
+  </div>
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\j.jpg" style="width:200%" height="400">
+  </div>
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\k.jpg" style="width:200%" height="400">
+  </div>
+  <div class="column">
+    <img align="middle" src="C:\Users\pulkit\Desktop\work\sems july 2020\code\project\pictures\l.jpg" style="width:200%" height="400">
+  </div>
+</div>
+
+
+
+
+     
+    </div>  
+    </div>
+</div>
+ </center>   
+</body>
+</html>
