@@ -1,0 +1,39 @@
+<?php
+include("config.php");
+?>
+
+<!DOCTYPE html>
+<html>
+<body>
+ <div class="container">
+ <form>
+ <div class="form-input">
+ <input type="text" name="text" placeholder="Enter the User Name"/> 
+ </div>
+ <div class="form-input">
+ <input type="password" name="password" placeholder="password"/>
+ </div>
+ <input type="submit" type="submit" value="LOGIN" class="btn-login"/>
+ </form>
+ </div>
+</body>
+</html>
+
+<?php
+
+$uname=$_POST['text'];
+$pass=$_POST['password'];
+
+$sql = "select *from table2975 where id = '$uname' and password = '$pass'";  
+        $result = mysqli_query($con, $sql);  
+        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
+        $count = mysqli_num_rows($result);  
+          
+        if($count == 1){  
+            echo "<h1><center> Login successful </center></h1>";  
+        }  
+        else{  
+            echo "<h1> Login failed. Invalid username or password.</h1>";  
+        }     
+?>  
+
